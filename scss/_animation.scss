@@ -1,0 +1,33 @@
+@keyframes bounce {
+    0%{
+        transform: rotate(-90deg);
+        width: 100px;
+        color: red;
+      
+    }
+    10%{
+        transform: rotate(-35deg);
+        width: 200px;
+        color: aqua;
+    }
+    70%{
+        transform: rotate(45deg);
+        width: 400px;
+        color: yellow;
+    }
+    80%{
+        transform: rotate(-10deg);
+        width: 600px;
+        color: bisque;
+    }
+    90%{
+        transform: rotate(15deg);
+        width: 900px;
+        color: blue;
+    }
+    100%{
+        transform: rotate(0deg);
+        color: violet;
+        width: 1200px;
+    }
+}
